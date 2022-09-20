@@ -37,11 +37,7 @@ const Header = (props) => {
         <div className="brand">
           <Link href="/">
             <a>
-              <img
-                className="logo"
-                src="https://res.cloudinary.com/sivadass/image/upload/v1493547373/dummy-logo/Veggy.png"
-                alt="Veggy Brand Logo"
-              />
+              <img className="logo" src="/logo.png" alt="Veggy Brand Logo" />
             </a>
           </Link>
         </div>

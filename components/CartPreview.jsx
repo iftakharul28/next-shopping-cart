@@ -56,7 +56,7 @@ const CartPreview = () => {
       <div className="action-block">
         <button
           type="button"
-          className={items === 0 ? 'disabled' : ''}
+          className={items.length === 0 ? 'disabled' : ''}
           onClick={handleProceedCheckout}
         >
           PROCEED TO CHECKOUT
